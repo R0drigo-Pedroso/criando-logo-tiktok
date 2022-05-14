@@ -29,10 +29,10 @@ body {
     border-top: 37px solid transparent;
     border-radius: 50%;
     top: 123px;
-    left: -136.2px;
+    left: -136.8px;
     transform: rotate(45deg);
     filter: drop-shadow(16px 0px 0 #fe2d52);
-}
+} 
 
 .tiktok::after {
     content: '';
