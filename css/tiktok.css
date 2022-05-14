@@ -50,3 +50,27 @@ body {
     z-index: -10;
     filter: drop-shadow(14px 0 0 #fe2d52);
 }
+
+
+/* Efeito para tremer */
+
+.tiktok {
+    /* animacao */
+    animation: tremer .2s;
+    animation-iteration-count: 4;
+}
+
+.tiktok::before {
+    /* animacao */
+    animation: tremer .2s;
+    animation-iteration-count: 4;
+}
+
+/* keyframe para ajustar até onde treme */
+@keyframes tremer {
+    0% {margin-left: 0;}
+    25% {margin-left: 6px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+}
