@@ -51,9 +51,7 @@ body {
     filter: drop-shadow(14px 0 0 #fe2d52);
 }
 
-
 /* Efeito para tremer */
-
 .tiktok {
     /* animacao */
     animation: tremer .2s;
